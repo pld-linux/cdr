@@ -1,0 +1,22 @@
+--- /home/users/hunter/tmp/down/cdr-3.0.0/cdr.pl	Mon Dec 23 23:34:09 2002
++++ cdr.pl	Thu Mar 15 01:11:16 2001
+@@ -10,7 +10,7 @@
+ $VERSION = "3.0.0";
+ 
+ # the prefix for all of the binaries
+-$prefix = "/usr/local/lib/cdr"; # default binary prefix for cdr
++$prefix = "/usr/bin"; # default binary prefix for cdr
+ 
+ # the ncurses thingie for the menus and stuff
+ $cdialog = $prefix . '/cdialog';
+
+--- rpm/BUILD/cdr-3.0.0/cdr.pl  Tue Dec 24 00:04:45 2002
++++ cdr.pl     Tue Dec 24 00:11:08 2002
+@@ -13,7 +13,7 @@
+ $prefix = "/usr/bin"; # default binary prefix for cdr
+ 
+ # the ncurses thingie for the menus and stuff
+-$cdialog = $prefix . '/cdialog';
++$cdialog = $prefix . '/dialog';
+ 
+ &init();
