@@ -1,5 +1,5 @@
-Summary:	Easy Tool for automagic CD-> mp3 conversion
-Summary(pl):	£atwe narzêdzie do automatycznej konwersji CD-> mp3
+Summary:	Easy Tool for automagic CD-> MP3 conversion
+Summary(pl):	£atwe narzêdzie do automatycznej konwersji CD-> MP3
 Name:		cdr
 Version:	3.0.0
 Release:	0
@@ -26,7 +26,7 @@ compiled/provided w/ this package. Don't forget to set +r on
 /dev/cdrom for your lusers :-)
 
 %description -l pl
-Cdr jest skryptem Perl u³atwiaj±cym tworzenie plików mp3 z p³ytek CD.
+Cdr jest skryptem Perl u³atwiaj±cym tworzenie plików MP3 z p³ytek CD.
 Jest to tylko interfejs wymagaj±cy innych narzêdzi, normalnie
 przychodz± one w paczce z cdr, jednak mamy te narzêdzia w naszych
 zasobach i dlatego nie ma ich w tym pakiecie. Nie nale¿y zapomnieæ o
