@@ -3,17 +3,17 @@ Summary(pl):	£atwe narzêdzie do automatycznej konwersji CD-> mp3
 Name:		cdr
 Version:	3.0.0
 Release:	0
-License:	GPL
-Group:		Applications
+License:	GPL v2
 Vendor:		David Cantrell <david@burdell.org>
-Source0:	http://dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
+Group:		Applications
+Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	d00f2d00e117f376bff9f72ef50ba166
 Patch0:		%{name}-fix-program-locations.patch
 URL:		http://cdr.sourceforge.net/
-Requires:	/usr/bin/id3ed
-Requires:	/usr/bin/cdparanoia
-Requires:	/usr/bin/lame
 Requires:	/usr/bin/cdialog
+Requires:	/usr/bin/cdparanoia
+Requires:	/usr/bin/id3ed
+Requires:	/usr/bin/lame
 Requires:	/bin/rm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -33,7 +33,7 @@ zasobach i dlatego nie ma ich w tym pakiecie. Nie nale¿y zapomnieæ o
 ustawieniu +r do /dev/cdrom dla swoich u¿ytkowników.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 %patch0 -p0
 
 %install
