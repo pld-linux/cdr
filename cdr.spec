@@ -5,7 +5,7 @@ Version:	3.0.0
 Release:	0
 License:	GPL
 Group:		Applications
-Vendor:		David Cantrell (david@burdell.org)
+Vendor:		David Cantrell <david@burdell.org>
 Source0:	http://telia.dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
 Patch0:		%{name}-fix-program-locations.patch
 URL:		http://cdr.sourceforge.net/
