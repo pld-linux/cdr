@@ -26,10 +26,12 @@ Requires:	/bin/rm
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-aqq
+Cdr is a Perl program that provides a simple console front-end to creating high-quality MP3s.  Since cdr is a frontend, it requires many programs in order to do its work. Normally cdr comes with most of the tools you'll need, but since we have them in our distro they are not compiled/provided w/ this package.
+Don't forget to set +r on /dev/cdrom for your lusers :-)
 
 %description -l pl
-aqq
+Cdr jest skryptem Perl u³atwiaj±cym tworzenie plików mp3 z p³ytek CD. Jest to tylko miêdzymordzie wymagaj±ce innych narzêdzi, normalnie przychodz± one w paczce z cdr, jednak mamy te narzêdzia w naszych zasobach i dlatego nie znajdziesz ich w tej paczce.
+Nie zapomnij ustawiæ +r do /dev/cdrom dla Twoich u¿ytkowników.
 
 %prep
 %setup -q -n %{name}-%{version}
@@ -43,14 +45,7 @@ install -d $RPM_BUILD_ROOT/usr/bin/
 install cdr.pl $RPM_BUILD_ROOT/usr/bin/
 
 %clean
-
-%pre
-
-%post
-
-%preun
-
-%postun
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
