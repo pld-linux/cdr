@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications
 Vendor:		David Cantrell <david@burdell.org>
 Source0:	http://telia.dl.sourceforge.net/sourceforge/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	d00f2d00e117f376bff9f72ef50ba166
 Patch0:		%{name}-fix-program-locations.patch
 URL:		http://cdr.sourceforge.net/
 Requires:	/usr/bin/id3ed
