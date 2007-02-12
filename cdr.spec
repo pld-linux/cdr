@@ -1,5 +1,5 @@
 Summary:	Easy Tool for automagic CD-> MP3 conversion
-Summary(pl.UTF-8):   Łatwe narzędzie do automatycznej konwersji CD-> MP3
+Summary(pl.UTF-8):	Łatwe narzędzie do automatycznej konwersji CD-> MP3
 Name:		cdr
 Version:	3.0.0
 Release:	0
